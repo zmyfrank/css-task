@@ -1,0 +1,271 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #fafafa;
+}
+header {
+    font-size: 14px;
+    color: #29b078;
+    margin: 14px 0;
+}
+header img {
+    padding-left: 2px;
+}
+
+.icon-right {
+    float: right;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.banner {
+    margin-top: -21px;
+}
+
+.properties {
+    margin-top: 162px;
+    text-align: center;
+}
+
+.properties h4 {
+    font-size: 18px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.properties p {
+    font-size: 16px;
+    color: #999999;
+    text-align: left;
+}
+
+.student {
+    margin-top: 53px;
+}
+
+.dotted-right {
+    border-right: 1px dotted #dedede;
+}
+.student p {
+    font-size: 18px;
+}
+
+.circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius:50%;
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+   line-height: 50px;
+    font-size: 18px;
+    color: #29b078;
+    -webkit-box-shadow: 1px 1px 1px 1px pink;
+    -moz-box-shadow: 1px 1px 1px 1px pink;
+    box-shadow: 1px 1px 1px 1px pink;
+}
+
+.study {
+    margin-top: 145px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.study h2 {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.study a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.study span {
+    display: inline-block;
+    text-align: left;
+    width: 12rem;
+    font-size: 14px;
+    color: #999999;
+}
+
+.study-bottom {
+    margin-top: 20px;
+}
+.f-vtm {
+    vertical-align: middle;
+}
+.f-disinb {
+    display: inline-block;
+}
+.m-studyBar{
+    padding-bottom: 2rem;
+}
+.students {
+    margin-top: 112px;
+}
+
+.font-h2 {
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.students-list {
+    width: 270px;
+    height: 370px;
+    padding: 15px 0 40px 0;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    margin: 4% auto;
+}
+
+.students-list h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+.students-list p {
+    font-size: 16px;
+    text-align: left;
+    color: #999999;
+    padding-left: 30px;
+}
+
+.shadow {
+    -webkit-box-shadow: 1px 1px 1px 1px pink;
+    -moz-box-shadow: 1px 1px 1px 1px pink;
+    box-shadow: 1px 1px 1px 1px pink;
+}
+
+.students-list-hover {
+    list-style: none;
+    margin: 5% auto;
+    width: 8rem;
+}
+
+.students-list-hover li{
+    display: inline-block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+.students-list-hover li:hover {
+    background-color: #29b078;
+}
+
+.company {
+    margin-top: 112px;
+    margin-bottom: 90px;
+}
+
+.company-list {
+    background-color: white;
+    box-shadow: 0px 2px 2px 0px #ccc;
+}
+
+.img-hover:hover {
+    border-radius: 3px;
+    box-shadow: -1px 0px 16px 2px #ccc;
+}
+/*friendLink开始*/
+.friendLink {
+    background-color: #ffffff;
+}
+.friendLink ul {
+    padding-bottom: 20px;
+}
+.friend li {
+    float: left;
+    margin-left: 50px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.friendLink h2{
+    font-size: 18px;
+    margin: 20px 0 26px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.friend li:hover {
+    border-bottom: 1px solid #999999;
+}
+/*footer开始*/
+footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #26a26f;
+    color: white;
+}
+
+footer h2 {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+footer a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-l h2 {
+    padding-bottom: 63px;
+}
+
+.footer-m h2 {
+    padding-bottom: 30px;
+}
+
+.footer-m-b {
+    padding-bottom: 20px;
+}
+
+.footer-m-b span,.footer-m-b2 span {
+    padding-right: 35px;
+}
+
+.footer-r {
+    float: right;
+}
+
+.footer-bottom {
+    background-color: #26a26f;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .footer-r {
+        float: left;
+    }
+    .students {
+        margin-bottom: 5px;
+    }
+    .properties p {
+        text-align: center;
+    }
+    .company-list img{
+        padding-left: 20px;
+    }
+    .col-xs-12 {
+        margin-left: 100px;
+    }
+}

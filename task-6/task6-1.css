@@ -1,0 +1,147 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin:  0;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: "Hiragino Sans GB W3", Serif;
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 480px){
+     html {
+         font-size: 40%;
+     }
+}
+
+.inline-block {
+    display: inline-block;
+}
+.wrap {
+    margin: 0 auto;
+    max-width: 640px;
+    background-color: #f0f0f0;
+}
+/*header开始*/
+header {
+    float: left;
+    width: 100%;
+    padding: 4% 0;
+    background-color: #29bde0;
+}
+
+header img {
+    display: block;
+    width: 5%;
+    margin-left: 3.4%;
+}
+
+.main {
+    float: left;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+/*main-top开始*/
+.main-top {
+    width: 89%;
+    margin: 4% auto;
+    padding: 7% 0;
+    background-color: white;
+    border: 1px solid #cecece;
+}
+
+.main-top-font{
+    font-size: 3.484rem;
+    color: #9a9a9a;
+    text-align: center;
+}
+
+.main-top img {
+   float: right;
+    margin-right: 4%;
+    width: 4%;
+    vertical-align: bottom;
+}
+
+/*main-bottom开始*/
+.main-bottom {
+    width: 89%;
+    margin: 0 auto 10% auto;
+    background-color: white;
+}
+
+.main-bottom-top {
+    padding: 4.8% 0;
+    border: 1px solid #cecece;
+    border-bottom: 1px solid #fdd793;
+    font-size: 3.774rem;
+    color: #fbb435;
+    text-align: center;
+}
+
+.main-bottom-bottom {
+    position: relative;
+    overflow: hidden;
+    margin-top: 5%;
+    text-align: center;
+}
+
+button {
+    width: 72.5%;
+    padding: 8.4% 0;
+    border: none;
+    font-size: 3.2rem;
+    color: white;
+    background-color: #69d1e9;
+}
+li {
+    margin-bottom: 4%;
+    list-style: none;
+}
+li p {
+    font-size: 2.453rem;
+    color: #787878;
+    margin-top: 4%;
+}
+
+.triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-left: 2rem solid #f8b435;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+}
+
+/*footer开始*/
+footer {
+    padding: 5% 0;
+}
+.more {
+    height: 2rem;
+    margin: 0 auto;
+    width: 10rem;
+}
+.circle {
+   margin-left: 1%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    float: left;
+}
+.circle-special {
+    margin-left: 35%;
+}
+.circle:hover {
+    background-color: #69d1e9;
+}
+

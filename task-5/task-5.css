@@ -1,0 +1,171 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "黑体-繁 细体", Serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 450px){
+    html {
+        font-size: 50%;
+    }
+}
+
+.wrap {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/*header开始*/
+header {
+    background-color: #5fc0cd;
+    position: relative;
+}
+
+header img {
+    display: block;
+    position: absolute;
+    left: 4%;
+    top: 27%;
+}
+
+header h2 {
+    font-size: 3.6rem;
+    text-align: center;
+    padding: 3.3% 0;
+    color: white;
+}
+
+.bg {
+    background: url("images/bg.png") no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    overflow: hidden;
+}
+
+.bg-icon {
+    float: left;
+    width: 20%;
+    display: inline-block;
+    margin: 0 4%;
+    padding: 10% 0;
+    border-radius: 50%;
+    background: #efefef url("images/icon-fav.png") no-repeat center bottom/70%;
+}
+
+.content {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    margin-top: 5%;
+}
+
+.content-up {
+    color: white;
+}
+
+.content-up {
+    font-size: 3.6rem;
+}
+
+.content-up span {
+    font-size: 2.8rem;
+    }
+
+.content-down {
+    padding-top: 2.4rem;
+    color: white;
+    font-size: 2.4rem;
+}
+/*main开始*/
+.skill {
+    padding: 5.5% 0;
+    font-size: 3.2rem;
+    border-bottom: 2px solid #e1e5e7;
+}
+
+.skill p {
+    border-left: 2px solid #5fc0cd;
+    margin-left: 4%;
+    padding-left: 4%;
+}
+
+/*ul部分开始*/
+ul {
+    list-style: none;
+    margin-left: 5%;
+}
+
+li{
+    padding: 5% 0 5% 3%;
+    border-bottom: 2px solid #e1e5e7;
+    font-size: 3.2rem;
+}
+
+.feature {
+    padding-right: 3%;
+    border-right: 1px solid #e1e5e7;
+}
+li img {
+    margin-right: 1rem;
+}
+
+.item {
+    color: #999;
+    margin-right: 4%;
+    padding-right: 4%;
+    border-right: 2px solid #e1e5e7;
+}
+
+.price {
+    color: red;
+}
+
+.self-introduction {
+    display: inline-block;
+    width: 48%;
+    font-size: 2.8rem;
+    vertical-align: middle;
+}
+
+.li-special {
+    border:none
+}
+
+footer {
+    padding: 14% 0;
+    border-top: 2px solid #e1e5e7;
+    overflow: hidden;
+}
+
+input {
+    font-size: 3.4rem;
+    border-radius: 5%;
+    border: none;
+}
+
+.button-left {
+    float: left;
+    margin-left: 4%;
+    padding: 4% 0;
+    width: 40%;
+    border: 1px solid #5fc0cd;
+    background-color: white;
+    color: #5fc0cd;
+}
+
+.button-right {
+    float: left;
+    padding: 4% 0;
+    margin-left: 4%;
+    width: 40%;
+    background-color: #5fc0cd;
+}

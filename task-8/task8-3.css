@@ -1,0 +1,253 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+}
+/*清除样式*/
+ul,ul li{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover,a:visited,a:focus{
+    text-decoration: none;
+}
+/*header开始*/
+header {
+    font-size: 14px;
+    color: #29b078;
+    margin: 14px 0;
+}
+header img {
+    padding-left: 2px;
+}
+
+.icon-right {
+    float: right;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.banner {
+    margin-top: -21px;
+}
+.f-borderBottom {
+    border-bottom: 1px solid #d6d6d9;
+}
+.g-bd {
+    background-color: #fafafa;
+}
+.m-snav {
+    padding: 30px 0;
+    border-bottom: 2px solid #e6e6e6;
+    font-size: 1.6rem;
+
+}
+
+.m-snav a:hover{
+    color: #29b078;
+}
+/*职业选择开始*/
+.u-menu {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.u-menu li {
+    float: left;
+    margin-right: 20px;
+    font-size: 1.4rem;
+}
+.u-menu li .f-padding {
+    padding: 4px;
+}
+.u-menu li:hover a{
+    color: white;
+    background-color: #29b078;
+}
+.u-menu .s-fc{
+    color: #999999;
+}
+
+
+.u-menu li a {
+    font-size: 1.4rem;
+}
+/*前端开发方向*/
+.m-tt {
+    padding: 30px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.f-pre {
+    position: relative;
+}
+.g-sdc {
+    box-shadow: 0 2px 2px #e1e1e1;
+    border: 1px solid #ededed;
+    background-color: white;
+}
+.f-marginT {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.f-marginImg {
+    margin-right: 5px;
+}
+.f-borderBottomB {
+    border-bottom: 2px solid #e6e6e6;
+}
+.f-paddingBottom {
+    padding-bottom: 100px;
+}
+/*introduce开始*/
+.introduce {
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.introduce h3 {
+    font-size: 1.6rem;
+    line-height: 11.22px;
+    font-weight: bold;
+}
+.introduce p {
+    font-size: 1.4rem;
+    line-height: 20px;
+    word-break: break-all;
+}
+.m-tbc {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.f-inline {
+    width: 50%;
+    float: left;
+}
+.f-borderRight {
+    border-right: 1px solid #d6d6d9;
+}
+.f-borderLeft {
+    border-left: 1px solid #d6d6d9;
+}
+.s-fcBottom {
+    color: #999999;
+    font-size: 1.2rem;
+}
+.m-tbc strong {
+    color: #f01400;
+}
+.m-tbc span {
+    padding-right: 5px;
+    color: #999999;
+}
+.f-fst{
+    font-size: 1.2rem;
+}
+/*.time开始*/
+
+.time {
+    width: 60%;
+    float: left;
+}
+.salary {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.salary p {
+    line-height: 100px;
+}
+
+.time span {
+    float: right;
+}
+.time li {
+    border-left: 1px solid #d6d6d9;
+    padding: 10px;
+}
+
+.u-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+.f-pre:hover .u-back{
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+/*footer开始*/
+footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #26a26f;
+    color: white;
+}
+
+footer h2 {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+}
+
+footer a{
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-l h2 {
+    padding-bottom: 63px;
+}
+
+.footer-m h2 {
+    padding-bottom: 30px;
+}
+
+.footer-m-b {
+    padding-bottom: 20px;
+}
+
+.footer-m-b span,.footer-m-b2 span {
+    padding-right: 35px;
+}
+
+.footer-r {
+    float: right;
+}
+
+.footer-bottom {
+    background-color: #26a26f;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .footer-r {
+        float: left;
+    }
+    .students {
+        margin-bottom: 5px;
+    }
+    .properties p {
+        text-align: center;
+    }
+}

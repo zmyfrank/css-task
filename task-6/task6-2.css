@@ -1,0 +1,186 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "微软雅黑",Serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and  (max-width: 480rem){
+    html {
+        font-size: 40%;
+    }
+}
+
+.wrap {
+    max-width: 640rem;
+    margin: 0 auto;
+}
+
+/*header开始*/
+header {
+    width: 100%;
+    float: left;
+    padding: 3% 0;
+    text-align: center;
+    font-size: 3.4rem;
+    color: white;
+    background-color: #29bde0;
+}
+header h2 {
+    display: inline-block;
+    font-size: 3.4rem;
+    font-weight: normal;
+}
+
+.header-left {
+    display: inline-block;
+    float: left;
+    margin-left: 3.6%;
+    width: 6.5%;
+}
+
+.header-right {
+    display: inline-block;
+    float: right;
+    margin-right: 3.6%;
+    width: 6.5%;
+    vertical-align: bottom;
+}
+
+/*prompt开始*/
+.prompt {
+    width: 100%;
+    float: left;
+    background-color: #b9e9f5;
+}
+
+.prompt p {
+    display: inline-block;
+    float: left;
+    padding: 5% 0;
+    font-size: 2.6rem;
+    margin-left: 7.5%;
+}
+
+.prompt img {
+    display: inline-block;
+    float: right;
+    margin-top: 3.3% ;
+    margin-right: 2.8%;
+    width: 8.1%;
+}
+/*prompt-bottom开始*/
+.prompt-bottom {
+    width: 100%;
+    float: left;
+    background-color: #29bde0;
+}
+
+.triangle {
+    margin-left: 11%;
+    width: 0;
+    height: 0;
+    border-top: 1.4rem solid #b9e9f5;
+    border-left: 1.4rem solid transparent;
+    border-right: 1.4rem solid transparent;
+}
+
+.prompt-bottom p {
+    margin-left: 11%;
+    font-size: 2.4rem;
+    color: white;
+}
+
+.box-container {
+    width: 100%;
+    float: left;
+    background-color: #29bde0;
+    box-sizing: border-box;/* 盒子的宽度包含padding*/
+}
+
+/*.box-container ul {*/
+    /*width: 86%;*/
+    /*margin: 7% auto;*/
+/*}*/
+
+.box-container li {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    width: 24%;
+    margin: 3.6% 0 4% 7%;
+}
+
+.box {
+    border: 3rem solid white;
+}
+.identity {
+    padding: 25% 0;
+    font-size: 3.0rem;
+    color: #565656;
+    background-color: #f5c97b;
+    text-align: center;
+}
+
+.number {
+    font-size: 2.276rem;
+    color: white;
+    text-align: center;
+}
+
+.method {
+    margin-top: 3%;
+    width: 100%;
+    font-size: 0;
+    opacity: 0;
+}
+
+.method img{
+    display: inline-block;
+    width: 23%;
+    padding:12.5% 1%;
+    float: left;
+}
+li:hover  .method{
+    opacity: 1;
+}
+
+footer {
+    background-color: #29bde0;
+    padding: 6.25% 0 6.25% 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640rem;
+    opacity: 0.8;
+
+}
+
+footer button {
+    width: 80%;
+    padding: 2%;
+    margin-left: 10%;
+    font-size: 4.0rem;
+    color: white;
+    text-align: center;
+    background-color: #fbb435;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    margin-bottom: 20%;
+}
+

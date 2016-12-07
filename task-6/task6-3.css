@@ -1,0 +1,137 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "微软雅黑", Serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 480px){
+    html {
+        font-size: 40%;
+    }
+}
+.wrap {
+    margin: 0 auto;
+    max-width: 640px;
+}
+/*header开始*/
+header {
+    background-color: #29bde0;
+    text-align: center;
+    border-bottom: 1px solid #74d4eb;
+}
+
+header h2 {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 3.4rem;
+    color: white;
+}
+
+.header-left {
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.header-right {
+    display: inline-block;
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.main {
+    text-align: center;
+}
+
+.main-top {
+    background-color: #29bde0;
+}
+
+.good {
+    padding: 3% 12.5% 10% 12.5%;
+    font-size: 3.3rem;
+    text-align: left;
+    color: #ffc865;
+    font-weight: bold;
+}
+
+.condition {
+    font-size: 2.6rem;
+    color: white;
+    text-align: left;
+    padding: 0 12.5% 4% 12.5%;
+}
+
+.main-bottom {
+    padding: 2% 12.5% 5% 12.5%;
+    position: relative;
+    border-bottom: 2px solid #dddddd;
+    text-align: left;
+}
+
+.main-bottom h2 {
+    font-size: 3rem;
+}
+
+.main-bottom span {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    font-size: 2rem;
+    color: #c7c7c7;
+}
+
+.main-bottom p {
+    font-size: 2.6rem;
+    color: #a6a6a6;
+}
+
+footer {
+    background-color: #99dff0;
+    padding: 4%;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 640px;
+    opacity: 0.8;
+}
+
+.button-left {
+    float: left;
+    margin-left: 4%;
+    background-color: #f66f6f;
+    color: white;
+    font-size: 4rem;
+    border: none;
+    width: 42%;
+    padding: 2% 0;
+    border-radius: 5%;
+}
+
+.button-right {
+    float: right;
+    margin-right: 4%;
+    background-color: #f6b435;
+    color: white;
+    font-size: 4rem;
+    border: none;
+    width: 42%;
+    padding: 2% 0;
+    border-radius: 5%;
+}
+
+body {
+    margin-bottom: 18%;
+}
