@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+html{
+    font-size: 625%;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/*header开始*/
+header {
+    /*padding: 0.12rem 0;*/
+    background-color: #1d7ad9;
+    overflow: hidden;
+}
+
+header .f-fs {
+    font-size: 0.14rem;
+}
+
+header .f-fs2 {
+    font-size: 0.16rem;
+    font-weight: bold;
+}
+header .f-lh {
+    line-height: 0.5rem;
+}
+
+header .s-fc {
+    color: white;
+}
+
+header a:hover {
+    background-color: white;
+    border-bottom: 1px solid white;
+    color: black;
+}
+.f-padding {
+    padding: 0.35rem 0.5rem;
+}
+
+.f-padding2{
+    padding: 0.15rem 0.2rem
+}
+.f-marginB {
+    margin-bottom: 0.25rem;
+}
+.f-paddingBottom {
+    padding-bottom: 0.25rem;
+}
+/*navbar开始*/
+nav {
+    background-color: #f9f9f9;
+}
+
+nav ul {
+    float: right;
+    padding: 0.25rem 0;
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding-left: 0.6rem;
+    vertical-align: middle;
+}
+nav ul li a {
+    background-color: white;
+    font-size: 0.16rem;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+nav ul li:hover a{
+    background-color: #1d7ad9;
+    color: white;
+}
+
+.m-bs {
+    background-color: #fff;
+}
+
+/*u-list2开始*/
+.u-list2 {
+    margin-top: 0.5rem;
+}
+.u-list2 li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 1.6rem;
+}
+.u-list2 span {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: -0.11rem;
+    left: 45%;
+}
+.u-list2 h3 {
+    padding-top: 0.2rem;
+    text-align: center;
+}
+.u-list2 .f-fs {
+    font-size: 0.18rem;
+}
+.u-list2 .s-fcs{
+    color: #ff7f02;
+}
+.u-list2 .s-fc {
+    color: #cccccc;
+}
+.u-list2 .s-sbc {
+    background-color: #ff7f02;
+}
+.u-list2 .s-bc {
+    background-color: #ccc;
+}
+.f-borderTopDefault {
+    border-top: 4px solid #ccc;
+}
+
+.f-borderTopSpecial {
+    border-top: 4px solid #ff7f02;
+}
+
+.u-tips {
+    margin:2rem 0 0.2rem 0;
+    padding-left: 0.1rem;
+    border-left: 4px solid #1d7ad9;
+}
+
+.u-tips h2 {
+    font-size: 0.22rem;
+}
+
+/*m-choose开始*/
+.m-choose {
+    border: 0.01rem solid #e8e8e8;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    margin-bottom: 0.55rem;
+}
+
+.m-choose .u-tt {
+    background-color: #f2f2f2;
+   padding-top: 0.15rem;
+}
+
+.m-choose .u-tt img,.m-choose .u-tt p {
+    vertical-align: baseline;
+}
+
+.m-choose .u-tt img {
+    padding-left: 0.15rem;
+}
+.m-choose .u-tt p {
+    display: inline-block;
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #1d7ad9;
+}
+
+/*修改默认样式*/
+input[type="checkbox"],input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    outline: none;
+    cursor: pointer;
+}
+input[type="text"] {
+    width: 0.7rem;
+    height: 0.3rem;
+    display: inline;
+    margin:0 0.1rem;
+}
+input:checked {
+    border:0.07rem solid #1D7AD9;
+    outline: none;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    width: 1.2rem;
+    height: 0.3rem;
+    padding-left: 0.1rem;
+    border: 0.01rem solid #e8e8e8;
+    background: url("images/icon-choosebox.png") no-repeat 0.94rem center;
+    font-size: 0.12rem;
+}
+/*choosebox开始*/
+.u-chooseBox {
+    position: relative;
+    padding: 0.3rem 0;
+    font-size: 0.18rem;
+    color: #666666;
+}
+.u-chooseBox input[type="checkbox"],.u-chooseBox input[type="radio"] {
+    float: left;
+    margin-left: 0.18rem;
+    margin-right: 0.17rem;
+    vertical-align: middle;
+}
+
+.u-chooseBox select {
+    position: absolute;
+    top: 35%;
+    right: 3.5%;
+}
+
+/*u-ns开始*/
+.u-ns {
+    padding-top: 1.4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+}
+
+.u-ns button{
+    margin: 0 auto;
+    line-height: 0.46rem;
+    width: 1.8rem;
+    border-radius: 5%;
+    background-color: #e15053;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+/*footer开始*/
+footer {
+    padding-top: 0.7rem;
+    padding-bottom: 0.75rem;
+    background-color: #f9f9f9;
+    color: #999999;
+}
+
+footer a {
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #999999;
+}
+
+footer a:hover {
+    color: #1d7ad9;
+}
+
+.u-footerl span{
+    font-size: 0.18rem;
+    font-weight: bold;
+}
+
+.footer-m-b {
+    padding-bottom: 0.25rem;
+}
+
+
+.footer-m span {
+    padding-right: 0.3rem;
+}
+
+.footer-float{
+    float: right;
+}
+.footer-r h2 {
+    font-size: 0.14rem;
+    font-weight: bold;
+    padding-bottom: 0.12rem;
+}
+
+.footer-r img {
+    margin-left: 0.15rem;
+}
+
+.footer-bottom {
+    padding-top: 0.1rem;
+    font-size: 0.12rem;
+    text-align: center;
+    color: white;
+    background-color: #1d7ad9;
+}
+@media (min-width: 325px) and (max-width: 767px){
+    html {
+        font-size: 250%;
+    }
+    .footer-r {
+        float: left;
+    }
+    .footer-m {
+        padding: 0.1rem 0;
+    }
+    nav {
+        font-size: 1%;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        width: 2rem;
+        height: 0.8rem;
+        padding-left: 0.1rem;
+        border: 0.01rem solid #e8e8e8;
+        background: url(images/icon-choosebox.png) no-repeat 1.4rem center;
+        font-size: 0.12rem;
+    }
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px)and (max-width: 993px){
+    html {
+        font-size: 425%;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        width: 1.2rem;
+        height: 0.3rem;
+        padding-left: 0.1rem;
+        border: 0.01rem solid #e8e8e8;
+        background: url(images/icon-choosebox.png) no-repeat 0.89rem center;
+        font-size: 0.12rem;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px)and (max-width: 1169px) {
+    html{
+        font-size: 545%;
+    }
+}

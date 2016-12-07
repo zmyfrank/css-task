@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>51包装</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="task10.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row f-lh">
+            <div class="col-lg-4 col-md-3  pull-left">
+                <p class="f-fs s-fc  ">服务热线：010-594-78634</p>
+            </div>
+            <div class="col-lg-6  col-lg-offset-2 col-md-8 col-md-offset-1">
+                <div class="pull-right">
+                    <a href="#" class="f-padding f-fs2 s-fc ">登陆</a>
+                    <a href="#" class="f-padding f-fs2 s-fc ">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="clearfix">
+    <div class="container">
+        <ul class="u-list">
+            <li><a class="f-padding2" href="#">首页</a></li>
+            <li><a class="f-padding2" href="#">在线定制</a></li>
+            <li><a class="f-padding2" href="#">标准箱</a></li>
+            <li><a class="f-padding2" href="#">品质保障</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="m-bd">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="u-list2 pull-right">
+                    <li class="f-borderTopSpecial">
+                        <span class="s-sbc">1</span>
+                        <h3 class="f-fs s-fcs">1.定制纸箱</h3>
+                    </li>
+                    <li class="f-borderTopDefault">
+                        <span class="s-bc">2</span>
+                        <h3 class="f-fs s-fc">2.选择数量</h3>
+                    </li>
+                    <li class="f-borderTopDefault">
+                        <span class="s-bc">3</span>
+                        <h3 class="f-fs s-fc">3.上传附件</h3>
+                    </li>
+                    <li class="f-borderTopDefault">
+                        <span class="s-bc">4</span>
+                        <h3 class="f-fs s-fc">4.确定下单</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="u-tips">
+                    <h2>请您按照以下步骤来确定您的纸箱</h2>
+                </div>
+            </div>
+        </div>
+        <div class="m-choose">
+            <div class="u-tt">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/icon-cbox.png" alt="选择箱型">
+                        <p>选择箱型</p>
+                    </div>
+                </div>
+            </div>
+            <div class="u-chooseBox">
+                <form class="row">
+                    <label for="suitcase" class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
+                        <input id="suitcase" type="radio" name="box" value="对口箱" checked="checked">对口箱
+                    </label>
+                    <label for="planebox" class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
+                        <input id="planebox" type="radio" name="box" value="飞机盒">飞机盒
+                    </label>
+                    <label for="sky" class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
+                        <input id="sky" type="radio" name="box" value="天地盖">天地盖
+                    </label>
+                    <select>
+                        <option value="inform">查询详情</option>
+                        <option value="inform">查询详情</option>
+                        <option value="inform">查询详情</option>
+                    </select>
+                </form>
+            </div><!--选择箱型-->
+            <div class="u-tt">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/icon-size.png" alt="选择箱型">
+                        <p>确定尺寸</p>
+                    </div>
+                </div>
+            </div>
+            <div class="u-chooseBox">
+                <form class="row f-marginB">
+                    <label for="outside" class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                        <input id="outside" type="checkbox" name="box" value="外径" checked="checked">外径
+                    </label>
+                    <label for="length" class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                        长<input id="length" type="text" name="length">mm
+                    </label>
+                    <label for="width" class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                        宽<input id="width" type="text" name="width">mm
+                    </label>
+                    <label for="height" class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                        高<input id="height" type="text" name="height">mm
+                    </label>
+                    <select>
+                        <option value="inform">查询详情</option>
+                        <option value="inform">查询详情</option>
+                        <option value="inform">查询详情</option>
+                    </select>
+                </form>
+                <form class="row">
+                    <label for="outside" class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                        <input id="outside" type="checkbox" name="box" value="内径" checked="checked">内径
+                    </label>
+                    <label for="length2" class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                        长<input id="length2" type="text" name="length2">mm
+                    </label>
+                    <label for="width2" class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                        宽<input id="width2" type="text" name="width2">mm
+                    </label>
+                    <label for="height2" class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                        高<input id="height2" type="text" name="height2">mm
+                    </label>
+            </div><!--确定尺寸-->
+            <div class="u-tt">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/icon-size.png" alt="选择箱型">
+                        <p>确定尺寸</p>
+                    </div>
+                </div>
+            </div>
+            <div class="u-chooseBox">
+                <div class="row">
+                    <label for="suitcase1" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <input id="suitcase1" type="radio" name="box1" value="对口箱" checked="checked">三层A瓦优质
+                    </label>
+                    <label for="planebox1" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <input id="planebox1" type="radio" name="box1" value="飞机盒">三层A瓦优质
+                    </label>
+                    <label for="sky1" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <input id="sky1" type="radio" name="box1" value="天地盖">三层A瓦优质
+                    </label>
+                    <label for="sky2" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <input id="sky2" type="radio" name="box1" value="天地盖">三层A瓦优质
+                    </label>
+                    <label for="sky3" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <input id="sky3" type="radio" name="box1" value="天地盖">三层A瓦优质
+                    </label>
+                    <select>
+                        <option value="inform">查询详情</option>
+                        <option value="inform">查询详情</option>
+                        <option value="inform">查询详情</option>
+                    </select>
+                </div>
+            </div><!--确定尺寸-->
+            <div class="u-ns">
+                <button type="submit">下一步</button>
+            </div>
+        </div>
+    </div>
+</div><!--主体结束-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="u-footerl">
+                    <span>51包装网— 纸箱包装首选服务平台</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="footer-m">
+                    <div class="footer-m-b">
+                        <span><a href="#">关于我们</a></span>
+                        <span><a href="#">配送流程</a></span>
+                        <span><a href="#">联系我们</a></span>
+                    </div>
+                    <div class="footer-m-b2">
+                        <span><a href="#">下单指南</a></span>
+                        <span><a href="#">媒体介绍</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 footer-float">
+                <div class="footer-r">
+                    <img class="img-responsive pull-right" src="images/icon-wechate.png" alt="微信公众号">
+                    <div class="pull-right">
+                        <h2 >TEL:400-0000-000</h2>
+                        <h2 >企业QQ：123456789</h2>
+                        <h2 >微信号：XXXXXX</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    北京五一包装科技有限公司Copyright ©2015 &nbsp;&nbsp;
+                    51baozhuang.com015&nbsp;&nbsp;All rights reserved.&nbsp;&nbsp;京icp备99999999-1
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
