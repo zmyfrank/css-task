@@ -1,0 +1,82 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+.warp {
+    margin: 0 auto;
+    max-width: 640px;
+    background-color: #68cdd5;
+}
+/*头部开始*/
+header {
+    padding-top: 2%;
+    padding-left: 5.4%;
+    max-width: 54px;
+}
+
+/*主体开始*/
+main {
+    padding-top: 4%;
+    padding-bottom: 20%;
+}
+
+main .logo {
+    margin: 0 auto;
+    max-width: 181px;
+}
+
+main .content {
+    padding-top: 20%;
+    margin: 0 auto;
+    width: 71%;
+}
+
+main .content p {
+    color: white;
+    font-size: 3rem;
+    line-height: 5.4rem;
+    font-family: "Hiragino Sans GB W3",Serif;
+}
+
+footer {
+    padding-bottom: 20.8%;
+    overflow: hidden;
+}
+
+.foot-l {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.foot-r {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 2.4rem;
+    line-height: 5.4rem;
+    font-family:"Adobe 黑体 Std r",Serif;
+}
+
+
+
