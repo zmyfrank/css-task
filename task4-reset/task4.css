@@ -1,0 +1,122 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "黑体-繁 细体", Serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+.wrap {
+    /*max-width: 720px;*/
+    width: 100%;
+    background-color: #eff0f4;
+    margin: 0 auto;
+}
+header {
+    background-color: #5fc0cd;
+    position: relative;
+
+}
+
+.header-l {
+    position: absolute;
+    left: 4%;
+    top: 33%;
+    font-size: 3.2rem;
+    color: white;
+}
+
+.header-r {
+    position: absolute;
+    right: 4%;
+    top: 33%;
+    font-size: 3.2rem;
+    color: white;
+}
+
+h2 {
+    font-size: 3.6rem;
+    color: white;
+    text-align: center;
+    padding:  4% 0;
+    letter-spacing: 1.5rem;
+}
+
+/*main开始*/
+.main {
+    margin-top: 2%
+}
+
+.tel {
+    background-color: white;
+    padding: 2% 0;
+}
+
+.password {
+    background-color: white;
+    margin-top: 2%;
+    padding: 2% 0;
+}
+
+label {
+    display: inline-block;
+    width: 4%;
+    padding: 0 6%;
+    vertical-align: middle;
+}
+
+input {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    border: none;
+    border-left: 2px solid #eaedee;
+    color: #e1e5e7;
+    font-size: 3.2rem;
+    text-indent: 2rem;
+}
+
+button {
+    width: 100%;
+    padding: 2.5%;
+    font-size: 3.6rem;
+    letter-spacing: 1rem;
+    color: white;
+    background-color: #5fc0cd;
+    margin-top: 10%;
+}
+
+footer {
+    position: relative;
+    height: 75rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer  p {
+    position: absolute;
+    right: 3.0rem;
+    top: 2.0rem;
+    color: #5fc0cd;
+    font-size: 3.2rem;
+}
+input {
+    outline: none;
+}
+
+
+
+
