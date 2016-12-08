@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>九宫格</title>
     <style>
-        .box{
-            width: 312px;
-            height: 312px;
-            background-color: #f5c97b;
+        .box1{
+            margin:20% auto;
+            width: 500px;
+            height: 500px;
+            border: 1px solid #f5c97b;
             border: 0px;
             margin: 0px;
             padding: 10px;
@@ -16,16 +17,22 @@
        .box2 {
            width: 312px;
            height: 312px;
-           background-color: #d43f3a;
+           background-color: #255536;
            border: 0px;
            margin: 0px;
            padding: 10px;
-           float: right;
+           background: red;
        }
+       .sss:hover .box2{
+            background-color: #000;
+            background: #999;
+        }
     </style>
 </head>
 <body>
-<div class="box"></div>
-<div class="box2"></div>
+<div class="box1">
+    <a href="#" class="sss">我的天空开始有点灰</a>
+    <div class="box2"></div>
+</div>
 </body>
 </html>
