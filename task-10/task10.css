@@ -232,7 +232,7 @@ select {
 
 .u-chooseBox select {
     position: absolute;
-    top: 35%;
+    /*top: 35%;*/
     right: 3.5%;
 }
 
@@ -308,10 +308,23 @@ footer a:hover {
     color: white;
     background-color: #1d7ad9;
 }
-@media (min-width: 325px) and (max-width: 767px){
+@media (min-width: 310px) and (max-width: 767px){
     html {
-        font-size: 250%;
+        font-size: 625%;
     }
+    .f-padding2 {
+        padding: 0.15rem 0.02rem
+    }
+    nav ul li {
+        padding-left: 0.03rem;
+    }
+    .u-list2 li{
+        width: 0.7rem
+    }
+    .u-list2 span {
+        left: 38%!important;
+    }
+
     .footer-r {
         float: left;
     }
@@ -321,41 +334,57 @@ footer a:hover {
     nav {
         font-size: 1%;
     }
-    select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -ms-appearance: none;
-        appearance: none;
-        width: 2rem;
-        height: 0.8rem;
-        padding-left: 0.1rem;
-        border: 0.01rem solid #e8e8e8;
-        background: url(images/icon-choosebox.png) no-repeat 1.4rem center;
-        font-size: 0.12rem;
-    }
+    /*select {*/
+        /*-webkit-appearance: none;*/
+        /*-moz-appearance: none;*/
+        /*-ms-appearance: none;*/
+        /*appearance: none;*/
+        /*width: 2rem;*/
+        /*height: 0.8rem;*/
+        /*padding-left: 0.1rem;*/
+        /*border: 0.01rem solid #e8e8e8;*/
+        /*background: url(images/icon-choosebox.png) no-repeat 1.4rem center;*/
+        /*font-size: 0.12rem;*/
+    /*}*/
 }
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px)and (max-width: 993px){
-    html {
-        font-size: 425%;
+    .f-move {
+        position: absolute!important;
+        top: 50%!important;
+        right: 3.5%!important;
     }
-    select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -ms-appearance: none;
-        appearance: none;
-        width: 1.2rem;
-        height: 0.3rem;
-        padding-left: 0.1rem;
-        border: 0.01rem solid #e8e8e8;
-        background: url(images/icon-choosebox.png) no-repeat 0.89rem center;
-        font-size: 0.12rem;
+    footer a {
+        font-size: 0.13rem!important;
     }
+    .footer-r h2 {
+        font-size: 0.13rem!important;
+    }
+    .u-footerl span {
+        font-size: 0.13rem!important;
+    }
+    .footer-m span {
+        font-size: 0.1rem;
+    }
+    /*select {*/
+        /*-webkit-appearance: none;*/
+        /*-moz-appearance: none;*/
+        /*-ms-appearance: none;*/
+        /*appearance: none;*/
+        /*width: 1.2rem;*/
+        /*height: 0.3rem;*/
+        /*padding-left: 0.1rem;*/
+        /*border: 0.01rem solid #e8e8e8;*/
+        /*background: url(images/icon-choosebox.png) no-repeat 0.89rem center;*/
+        /*font-size: 0.12rem;*/
+    /*}*/
 }
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
 @media (min-width: 992px)and (max-width: 1169px) {
-    html{
-        font-size: 545%;
+    .f-move {
+        position: absolute!important;
+        top: 50%!important;
+        right: 3.5%!important;
     }
 }

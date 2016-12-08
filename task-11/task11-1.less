@@ -1,0 +1,146 @@
+@charset "utf-8";
+html {
+  font-size: 625%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  padding-bottom: 12rem;
+  .s-bc
+}
+@font1:0.32rem;
+@font2:0.36rem;
+.f-disinb {
+  display: inline-block;
+}
+.f-fl {
+  float: left;
+}
+.f-fr {
+  float: right;
+}
+.f-vtm {
+  vertical-align: middle;
+}
+.s-bc {
+  background-color: #eff0f4;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: @font1;
+}
+button {
+  border: none;
+}
+header {
+  position: relative;
+  background-color: #5fc0cd;
+  a {
+    font-size: @font1;
+    .f-vtm;
+    &:hover {
+      color: yellow;
+    }
+  }
+  .u-left {
+    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+  }
+  h3 {
+    padding: 0.3rem 0;
+    font-size: @font2;
+    color: white;
+    text-align: center;
+  }
+  .u-right {
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+  }
+}
+
+.g-bd {
+  background-color: #eff0f4;
+  .u-list {
+    padding: 0.2rem 0 0.7rem 0;
+    label {
+      display: block;
+      padding: 0.25rem 0;
+      margin-bottom: 0.15rem;
+      background-color: white;
+      color: #e1e5e7;
+      font-size: @font1;
+      img {
+        .f-disinb;
+        margin: 0 0.4rem;
+        .f-vtm
+      }
+      input {
+        .f-disinb;
+        padding: 0.1rem 0 0.1rem 0.4rem;
+        width: 70%;
+        border: none;
+        font-size: @font1;
+        border-left: 0.02rem solid #eaedee;
+        .f-vtm
+      }
+    }
+  }
+}
+.g-footer {
+  position: relative;
+  .s-bc;
+  button {
+    display: block;
+    padding: 0.3rem;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    font-size: @font2;
+    color: white;
+    background-color: #5fc0cd;
+    text-align: center;
+  }
+  a {
+    .f-disinb;
+    position: absolute;
+    top: 1.2rem;
+    right: 0.3rem;
+    font-size: @font1;
+    color: #5fc0cd;
+    &:hover {
+      color: yellow;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 500%;
+  }
+}
+
+@media (max-width: 500px ) {
+  html {
+    font-size: 400%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 300%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 150%;
+  }
+}

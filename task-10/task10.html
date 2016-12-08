@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="task10.css">
+    <link rel="stylesheet" href="../base.css">
 </head>
 <body>
 <header>
@@ -35,7 +36,7 @@
     </div>
 </nav>
 <div class="m-bd">
-    <div class="container">
+    <form class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <ul class="u-list2 pull-right">
@@ -75,7 +76,7 @@
                 </div>
             </div>
             <div class="u-chooseBox">
-                <form class="row">
+                <div class="row">
                     <label for="suitcase" class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
                         <input id="suitcase" type="radio" name="box" value="对口箱" checked="checked">对口箱
                     </label>
@@ -90,7 +91,7 @@
                         <option value="inform">查询详情</option>
                         <option value="inform">查询详情</option>
                     </select>
-                </form>
+                </div>
             </div><!--选择箱型-->
             <div class="u-tt">
                 <div class="row">
@@ -101,7 +102,7 @@
                 </div>
             </div>
             <div class="u-chooseBox">
-                <form class="row f-marginB">
+                <div class="row f-marginB">
                     <label for="outside" class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
                         <input id="outside" type="checkbox" name="box" value="外径" checked="checked">外径
                     </label>
@@ -114,13 +115,13 @@
                     <label for="height" class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
                         高<input id="height" type="text" name="height">mm
                     </label>
-                    <select>
+                    <select class="f-move">
                         <option value="inform">查询详情</option>
                         <option value="inform">查询详情</option>
                         <option value="inform">查询详情</option>
                     </select>
-                </form>
-                <form class="row">
+                </div>
+                <div class="row">
                     <label for="outside" class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
                         <input id="outside" type="checkbox" name="box" value="内径" checked="checked">内径
                     </label>
@@ -159,7 +160,7 @@
                     <label for="sky3" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                         <input id="sky3" type="radio" name="box1" value="天地盖">三层A瓦优质
                     </label>
-                    <select>
+                    <select class="f-move">
                         <option value="inform">查询详情</option>
                         <option value="inform">查询详情</option>
                         <option value="inform">查询详情</option>
@@ -170,7 +171,7 @@
                 <button type="submit">下一步</button>
             </div>
         </div>
-    </div>
+    </form>
 </div><!--主体结束-->
 <footer>
     <div class="container">

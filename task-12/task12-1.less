@@ -1,0 +1,145 @@
+@charset "utf-8";
+html {
+  font-size: 625%;
+}
+img {
+  max-width: 100%;
+}
+
+@font1:0.32rem;
+@text-color:#fff;
+/*header开始主要包含一个图片点击链接和标题*/
+header {
+  position: relative;
+  padding: 0.2rem 0;
+  background-color: #5fc0cd;
+  a {
+    position: absolute;
+    left: 0.35rem;
+    top: 0.2rem;
+  }
+  h3 {
+    font-size: 0.36rem;
+    color: @text-color;
+    text-align: center;
+  }
+  img {
+    width: 0.3rem;
+  }
+}
+
+/*banner开始，其中包括一个图片和两行文字，背景图片铺满整个框
+写了两个字体的样式，统一设置P的字体大小为24px，文字居中是使用
+的margin-top来实现*/
+.g-banner {
+  background: url("images/bg.png") no-repeat;
+  background-size: cover;
+  padding: 0.8rem 0.3rem;
+  .f-fs36 {
+    font-size: 0.36rem;
+  }
+  .f-fs26 {
+    font-size: 0.26rem;
+  }
+  .u-favicon {
+    display: inline-block;
+    width: 1.7rem;
+  }
+  .u-banner-main {
+    display: inline-block;
+    margin-left: 0.75rem;
+    margin-top: 0.35rem;
+    p {
+      margin-bottom: 0.3rem;
+      color: #fff;
+      font-size: 0.24rem;
+    }
+  }
+}
+
+/*
+主体文字开始，以一个h3作为标题，介绍以ul无序列表来实现
+给ul添加一个上下边框，li每个都有一个下边框，并且清除最
+下面border的下边框*/
+@border:1px solid #e1e5e7;
+.s-fc1 {
+  color: #999999;
+}
+.s-fc2 {
+  color: #e26163;
+}
+.f-width {
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+}
+.f-noborder {
+  border: none!important;
+}
+.g-main {
+  background-color: #fff;
+  h3 {
+    padding-left: 0.4rem;
+    margin: 0.3rem 0.4rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    border-left: 0.04rem solid #5fc0cd;
+    &:before {
+      display: inline-block;
+      width: .02rem;
+      height: .15rem;
+      background: #5fc0cd;
+      margin-right: .1rem;
+    }
+  }
+  .u-list {
+    border-top: @border;
+    border-bottom: @border;
+    li {
+      margin-left: 0.85rem;
+      padding: 0.35rem 0;
+      border-bottom: @border;
+      span {
+        display: inline-block;
+        font-size: 0.32rem;
+        &:first-child {
+          padding-right: 0.2rem;
+          margin-right: 0.2rem;
+          border-right: @border;
+        }
+        img {
+          margin-right: 0.2rem;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+/*footer由两个button构成，本来想把button的样式写出来
+方便提取，但是感觉好难，没有啥思路*/
+footer {
+  padding: 1rem 0.35rem 0.35rem 0.35rem;
+  .btnl {
+    padding: 0.28rem;
+    margin-right: 0.5rem;
+    width: 45%;
+    font-size: 0.34rem;
+    border: 1px solid #5fc0cd;
+    border-radius: 5px;
+    color: #5fc0cd;
+  }
+  .btnr {
+    padding: 0.28rem;
+    background-color: #5fc0cd;
+    width: 45%;
+    font-size: 0.34rem;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+@media (min-width: 320px)and(max-width: 620px) {
+  html {
+    font-size: 350%;
+  }
+}

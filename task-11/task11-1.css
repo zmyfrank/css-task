@@ -1,0 +1,138 @@
+@charset "utf-8";
+html {
+  font-size: 625%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  padding-bottom: 12rem;
+  background-color: #eff0f4;
+}
+.f-disinb {
+  display: inline-block;
+}
+.f-fl {
+  float: left;
+}
+.f-fr {
+  float: right;
+}
+.f-vtm {
+  vertical-align: middle;
+}
+.s-bc {
+  background-color: #eff0f4;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.32rem;
+}
+button {
+  border: none;
+}
+header {
+  position: relative;
+  background-color: #5fc0cd;
+}
+header a {
+  font-size: 0.32rem;
+  vertical-align: middle;
+}
+header a:hover {
+  color: yellow;
+}
+header .u-left {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.3rem;
+}
+header h3 {
+  padding: 0.3rem 0;
+  font-size: 0.36rem;
+  color: white;
+  text-align: center;
+}
+header .u-right {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+}
+.g-bd {
+  background-color: #eff0f4;
+}
+.g-bd .u-list {
+  padding: 0.2rem 0 0.7rem 0;
+}
+.g-bd .u-list label {
+  display: block;
+  padding: 0.25rem 0;
+  margin-bottom: 0.15rem;
+  background-color: white;
+  color: #e1e5e7;
+  font-size: 0.32rem;
+}
+.g-bd .u-list label img {
+  display: inline-block;
+  margin: 0 0.4rem;
+  vertical-align: middle;
+}
+.g-bd .u-list label input {
+  display: inline-block;
+  padding: 0.1rem 0 0.1rem 0.4rem;
+  width: 70%;
+  border: none;
+  font-size: 0.32rem;
+  border-left: 0.02rem solid #eaedee;
+  vertical-align: middle;
+}
+.g-footer {
+  position: relative;
+  background-color: #eff0f4;
+}
+.g-footer button {
+  display: block;
+  padding: 0.3rem;
+  margin-bottom: 0.2rem;
+  width: 100%;
+  font-size: 0.36rem;
+  color: white;
+  background-color: #5fc0cd;
+  text-align: center;
+}
+.g-footer a {
+  display: inline-block;
+  position: absolute;
+  top: 1.2rem;
+  right: 0.3rem;
+  font-size: 0.32rem;
+  color: #5fc0cd;
+}
+.g-footer a:hover {
+  color: yellow;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 500%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 400%;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 300%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 150%;
+  }
+}
