@@ -1,0 +1,152 @@
+@charset "utf-8";
+html {
+  font-size: 625%;
+}
+img {
+  max-width: 100%;
+}
+/*header开始，其中包括连个button，和一个图标，图标使用绝对定位
+固定在右边，button居中显示然后为右边设置一个负的margin-left*/
+.btn {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.34rem;
+  border-radius: 5px;
+}
+.btnl {
+  background-color: #55a8b3;
+  color: white;
+}
+.btnr {
+  background-color: white;
+  color: #5fc0cd;
+}
+.hd {
+  position: relative;
+  padding: 0.05rem 0;
+  background-color: #5fc0cd;
+  text-align: center;
+}
+.hd .btnr {
+  margin-left: -0.1rem;
+}
+.hd a {
+  position: absolute;
+  top: 0.13rem;
+  right: 0.3rem;
+  width: 0.45rem;
+}
+/*导航开始，导航是一个表格，之中有三个select*/
+.nav {
+  padding: 0.2rem 0;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #5fc0cd;
+}
+.nav ul li {
+  display: inline-block;
+  float: left;
+  width: 33.33%;
+}
+.nav select {
+  padding: 0 50%;
+  font-size: 0.28rem;
+  color: #999;
+  border: none;
+  border-right: 1px solid #5fc0cd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("images/icon-select.png") no-repeat 4rem center;
+}
+.section-main {
+  background-color: #fff;
+}
+.section-main li {
+  position: relative;
+  padding: 0.27rem 0 0.27rem 0.28rem;
+  border-bottom: 1px solid #5fc0cd;
+}
+.section-main .item-tt {
+  font-size: 0.28rem;
+  color: #999;
+}
+.section-main .item-main {
+  padding: 0.2rem  0 0.2rem 0.5rem;
+  font-size: 0.28rem;
+}
+.section-main .item-icon {
+  padding-right: 0.3rem;
+  width: 0.24rem;
+}
+.section-main .item-tt--special {
+  font-size: 0.26rem;
+  color: #999;
+}
+.section-main .item-tt--price {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.3rem;
+  font-size: 0.3rem;
+  color: #e63b0e;
+}
+.section-main .item-tt--price .item-icon--special {
+  margin-left: 0.45rem;
+  vertical-align: middle;
+  width: 0.33rem;
+}
+/*底部开始，每个图片都为响应式设定了一个宽度，防止它最后变形*/
+.ft {
+  padding: 0.15rem 0;
+  text-align: center;
+  background-color: #f8fafb;
+}
+.ft .item-home {
+  display: inline-block;
+  /*变成inline-block之后才能有width，a默认为inline元素*/
+  width: 0.6rem;
+  font-size: 0.2rem;
+  color: #5fc0cd;
+}
+.ft .item-home .item-home-icon {
+  width: 0.5rem;
+  padding-bottom: 0.1rem;
+}
+.ft .item-write {
+  padding: 0 1rem;
+}
+.ft .item-write .item-write-icon {
+  width: 0.95rem;
+}
+.ft .item-user {
+  display: inline-block;
+  /*变成inline-block之后才能有width，a默认为inline元素*/
+  width: 0.6rem;
+  font-size: 0.2rem;
+  color: #999999;
+}
+.ft .item-user .item-user-icon {
+  width: 0.5rem;
+  padding-bottom: 0.1rem;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 500%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 400%;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 300%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 150%;
+  }
+}
