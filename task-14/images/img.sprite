@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="img" IsPhone="false" SpriteImgFileType="Png" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="icon-shixincircle.png" LocationX="0" LocationY="0" />
+    <Sprite Path="icon-kongxincircle.png" LocationX="10" LocationY="0" />
+    <Sprite Path="icon-user.png" LocationX="20" LocationY="0" />
+    <Sprite Path="icon-star.png" LocationX="33" LocationY="0" />
+    <Sprite Path="icon-wechat.png" LocationX="49" LocationY="0" />
+    <Sprite Path="icon-qq.png" LocationX="74" LocationY="0" />
+    <Sprite Path="icon-wb.png" LocationX="99" LocationY="0" />
+    <Sprite Path="icon-nextStep.png" LocationX="124" LocationY="0" />
+    <Sprite Path="icon-gaox.png" LocationX="156" LocationY="0" />
+    <Sprite Path="icon-guif.png" LocationX="199" LocationY="0" />
+    <Sprite Path="icon-dayou.png" LocationX="259" LocationY="0" />
+    <Sprite Path="icon-dayou2.png" LocationX="387" LocationY="0" />
+    <Sprite Path="icon-ren.png" LocationX="527" LocationY="0" />
+    <Sprite Path="icon-dayou4.png" LocationX="667" LocationY="0" />
+    <Sprite Path="icon-dayou3.png" LocationX="813" LocationY="0" />
+  </SpriteList>
+</SpriteFile>

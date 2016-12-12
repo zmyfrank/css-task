@@ -1,0 +1,208 @@
+@charset "utf-8";
+@import "variable";
+/*雪碧图*/
+.img{background:url(images/img.png) no-repeat ;}
+.icon-shixincircle{height:0.10rem;width:0.10rem;background-position:0 0;}
+.icon-kongxincircle{height:0.10rem;width:0.10rem;background-position:-0.10rem 0;}
+.icon-user{height:0.13rem;width:0.13rem;background-position:-0.20rem 0;}
+.icon-star{height:0.15rem;width:0.16rem;background-position:-0.33rem 0;}
+.icon-wechat{height:0.24rem;width:0.25rem;background-position:-0.49rem 0;}
+.icon-qq{height:0.24rem;width:0.25rem;background-position:-0.74rem 0;}
+.icon-wb{height:0.24rem;width:0.25rem;background-position:-0.99rem 0;}
+.icon-nextStep{height:0.30rem;width:0.32rem;background-position:-1.24rem 0;}
+.icon-gaox{height:0.62rem;width:0.43rem;background-position:-1.56rem 0;}
+.icon-guif{height:0.62rem;width:0.60rem;background-position:-1.99rem 0;}
+.icon-dayou{height:1.14rem;width:1.28rem;background-position:-2.59rem 0;}
+.icon-dayou2{height:1.23rem;width:1.40rem;background-position:-3.87rem 0;}
+.icon-ren{height:1.41rem;width:1.40rem;background-position:-5.27rem 0;}
+.icon-dayou4{height:1.16rem;width:1.46rem;background-position:-6.67rem 0;}
+.icon-dayou3{height:1.43rem;width:1.56rem;background-position:-8.13rem 0;}
+
+
+/*html属性正式开始*/
+html {
+  font-size: 625%;
+}
+img {
+  max-width: 100%;
+}
+i {
+  display: inline-block;
+  vertical-align: middle;
+  background:url(images/img.png) no-repeat;
+  -webkit-background-size:9.69rem 1.43rem;
+  -webkit-background-size:9.69rem 1.43rem;
+}/*i标签用于雪碧图*/
+
+/*.u-container样式*/
+.u-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .u-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .u-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .u.u-container {
+    width: 1170px;
+  }
+}
+
+/*头部公用样式*/
+.g-hd {
+  width: 100%;
+  padding: 0.1rem 0;
+  background-color: @hd-bgc;
+}
+.m-hd {
+  display: flex;
+  justify-content: space-between;
+  p {
+    font-size: @hd-fs;
+    color: @hd-fc;
+  }
+}
+
+.u-hd-item {
+  li {
+    display: inline-block;
+    margin-left: 0.11rem;
+  }
+}
+
+/*导航共用样式*/
+.g-nav {
+  width: 100%;
+  background-color: @nav-bgc;
+}/*导航高度靠内容撑开*/
+
+.m-nav {
+  display: flex;
+  justify-content: flex-end;
+}/*弹性盒子靠右分布*/
+
+.u-nav-item {
+  display: inline-block;
+  padding: 0 0.2rem;
+  line-height: 1rem;
+  border-bottom: 4px solid transparent;
+  a {
+    color: white;
+    font-size: 0.16rem;
+  }
+}
+.m-nav li:hover {
+  border-bottom: 4px solid white;
+}
+
+.m-banner {
+  width: 100%;
+  height: 2rem;
+  background-color: #00AA88;
+}
+
+/*内部容器开始*/
+g-bd {
+  width: 100%;
+  background-color: #fafafa;
+}
+.g-mnc {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: row wrap;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+.u-mnc-item {
+  margin: 0.4rem 0;
+  width: 100%;
+  text-align: center;
+  h3{
+    margin: 0.3rem 0;
+    font-size: 0.18rem;
+    font-weight: bold;
+  }
+  p{
+    font-size: 0.16rem;
+    line-height: 0.25rem;
+    color: #999999;
+  }
+  span {
+    font-size: 0.18rem;
+    color: #26a26f;
+  }
+}
+@media (min-width: 900px) {
+  .u-mnc-item {
+    width: 20%;
+    p{
+      text-align: left;
+    }
+  }
+  .u-mnc-item--special {
+    align-self: center;
+    text-align: left;/*规定人数部分对齐样式*/
+    i {
+      vertical-align: inherit;
+    }
+    p {
+      padding: 0.05rem 0;
+    }/*在人数部分p处添加间隔*/
+  }
+  .f-borderR {
+    padding-right: 0.5rem;
+    border-right: 1px dashed #26a26f;
+  }/*定义右边的虚线*/
+}/*主要是定义人数部分样式*/
+
+/*如何学习部分开始*/
+.u-circle{
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  webkit-box-shadow: 1px 1px 1px 1px pink;
+  -moz-box-shadow: 1px 1px 1px 1px pink;
+  box-shadow: 1px 1px 1px 1px pink;
+  background-color: white;
+  vertical-align: middle;
+  color: #29b078;
+  font-size: 0.18rem;
+  line-height: 0.7rem;
+  text-align: center;
+}/*圆和圆里面内容的样式*/
+
+.g-mnc{
+  h2 {
+    margin: 0 auto 0.5rem auto;
+  }
+}
+.u-circle+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0.2rem;
+  padding: 0 0.1rem 0 0.2rem;
+  width: 1.55rem;
+  text-align: left;
+}/*利用相邻兄弟选择选中圆框旁边的span*/
+
+@media (min-width: 900px) {
+  .u-flex-4 {
+    width: 25%;
+  }
+  .u-circle+span{
+    width: 1.22rem;
+    padding: 0 0 0 0.1rem;
+  }
+}

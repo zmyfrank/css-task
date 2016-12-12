@@ -1,0 +1,93 @@
+@charset "utf-8";
+body {
+  background-color: #29bde0;
+  margin-bottom: 3rem;
+}
+.m-hd {
+  h2 {
+    color: white;
+    font-size: 0.34rem;
+  }
+}
+/*单独设置文字样式，方便拆分组件*/
+.u-alert_main {
+  p {
+    font-size: 0.26rem;
+    line-height: 0.5rem;
+    color: #464646;
+  }
+}
+
+.u-alert_bottom {
+  p {
+    margin-top: 0.1rem;
+    font-size: 0.24rem;
+    color: white;
+  }
+}
+
+.m-idlist {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  /*-webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 0.7rem;
+  -moz-column-gap: 0.7rem;
+  column-gap: 0.7rem;*/
+  li {
+    position: relative;
+    width: 33.33%;
+    margin-bottom: 0.2rem;
+    &:hover .u-method{
+      opacity: 1;
+    }
+  }
+  .u-idlist-wrap {
+    margin: 0 auto;
+    width: 1.4rem;
+  }
+  .u-idbox {
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 0.04rem solid white;
+    text-align: center;
+    .u-id {
+      height: 1rem;
+      line-height: 1rem;
+      font-size: 0.3rem;
+      color: #565656;
+      background-color: #f5c97b;
+    }
+    .u-num {
+      height: 0.25rem;
+      font-size: 0.227rem;
+      color: white;
+      background-color: #83b09a;
+    }
+  }
+  .u-method {
+    opacity: 0;
+    margin-top: 0.1rem;
+    i {
+      margin-left: 0.01rem;
+    }
+  }
+}
+.g-ft {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.7;
+  .m-ft {
+    padding:  0.4rem 0.75rem;
+  }
+}
+.u-ft_btn {
+  color: white;
+  background-color: #fbb435;
+  font-size: 0.4rem;
+}
