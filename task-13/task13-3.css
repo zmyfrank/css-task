@@ -1,0 +1,100 @@
+@charset "utf-8";
+body {
+  margin-bottom: 1.24rem;
+}
+.m-hd h2 {
+  color: white;
+  font-size: 0.34rem;
+}
+/*bd背景颜色*/
+.s-bdc2 {
+  background-color: #29bde0;
+}
+/*上部单独样式*/
+.u-bd-top {
+  padding-bottom: 0.25rem;
+}
+.u-bd-top img {
+  display: block;
+  margin: 0 auto;
+}
+.u-bd-top p {
+  margin-top: 0.2rem;
+  font-size: 0.33rem;
+  color: #ffc865;
+  text-align: left;
+}
+/*列表样式1*/
+.u-stat {
+  margin-top: 0.65rem;
+  font-size: 0.26rem;
+  color: white;
+}
+.u-stat li {
+  line-height: 0.35rem;
+}
+.u-stat .u-stat_id {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.u-stat .u-stat_id li {
+  width: 28%;
+}
+/*列表样式2*/
+.u-bd-bottom {
+  background-color: white;
+}
+.u-bd-bottom-list {
+  font-size: 0.26rem;
+  color: #a6a6a6;
+}
+.u-bd-bottom-list li {
+  margin-top: 0.1rem;
+}
+.u-bd-bottom > li {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.2rem;
+}
+.result-data {
+  display: flex;
+  margin-bottom: 0.25rem;
+  justify-content: space-between;
+}
+.result-data h3 {
+  font-size: 0.3rem;
+  color: #515151;
+}
+.result-data p {
+  font-size: 0.2rem;
+  color: #c7c7c7;
+}
+/*尾部样式*/
+.g-ft {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.7;
+  background-color: #99dff0;
+}
+.g-ft .m-ft {
+  display: flex;
+  padding: 0.2rem 0;
+  justify-content: space-around;
+  width: 100%;
+}
+.g-ft button {
+  padding: 0.35rem 0;
+  width: 30%;
+  color: white;
+  font-size: 0.4rem;
+  border-radius: 5px;
+}
+.btn-l {
+  background-color: #f66f6f;
+}
+.btn-r {
+  background-color: #fbb435;
+}

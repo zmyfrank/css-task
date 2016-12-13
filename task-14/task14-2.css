@@ -1,0 +1,90 @@
+@charset "utf-8";
+.m-banner2 {
+  width: 100%;
+}
+/*合作企业*/
+.u-circle2 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  border: 1px solid #ff7425;
+}
+.u-companylist {
+  margin-bottom: 0.5rem;
+  height: 5.5rem;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  /*圆圈和右边文字距离*/
+  /*鼠标一上去圆圈会变色*/
+}
+.u-companylist li {
+  line-height: 0.4rem;
+}
+.u-companylist .u-circle2 {
+  margin-right: 0.05rem;
+}
+.u-companylist a {
+  font-size: 0.14rem;
+  color: #29b078;
+}
+.u-companylist a:hover .u-circle2 {
+  background-color: #f9a372;
+}
+.u-companylist h3 {
+  font-size: 0.16rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+/*土豆网介绍*/
+.u-introduce {
+  padding: 0.2rem 0 1rem 0;
+  box-sizing: border-box;
+  font-size: 0.14rem;
+  color: #999999;
+  line-height: 0.25rem;
+  border: 1px solid #e6e6e6;
+}
+.u-introduce-tt {
+  box-sizing: border-box;
+  padding: 0 0.2rem 0.3rem 0.2rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.u-introduce-tt img {
+  width: 1.78rem;
+  float: left;
+  padding-right: 0.35rem;
+}
+.u-introduce-main {
+  box-sizing: border-box;
+  padding: 0.35rem 0.6rem 0 0.6rem;
+}
+.u-introduce-main p {
+  padding-bottom: 0.35rem;
+  text-indent: 0.28rem;
+}
+/*对于u-company的媒体查询，用于自适应*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .u-companylist {
+    width: 2.5rem;
+  }
+  .u-introduce {
+    width: 4.8rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-companylist {
+    width: 2.5rem;
+  }
+  .u-introduce {
+    width: 6.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .u-companylist {
+    width: 3rem;
+  }
+  .u-introduce {
+    width: 7.8rem;
+  }
+}

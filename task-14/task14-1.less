@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*战略合作样式开始*/
+.u-mnc-item--company {
+  width: 1.8rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  background-color: white;
+  webkit-box-shadow: 1px 1px 1px 1px pink;
+  -moz-box-shadow: 1px 1px 1px 1px pink;
+  box-shadow: 1px 1px 1px 1px pink;
+  &:hover {
+    box-shadow: -1px 0px 16px 2px #ccc;
+    border-radius: 3px;
+  }
+  img {
+    vertical-align: middle;
+  }
+}
+@media (max-width: 1170px) {
+  .u-mnc-item--company {
+    margin: 0 auto;
+  }/*小屏幕时居中显示*/
+}
+@media (min-width: 768px)and(max-width: 991px) {
+  .u-mnc-item--company{
+    width: 1.3rem;
+  }/*屏幕变小时控制图片大小适应页面*/
+}
+
+/*友情链接开始*/
+.u-companylink {
+  background-color: white;
+}
+.u-linklist {
+  box-sizing: border-box;
+  li {
+    display: inline-block;
+    float: left;
+    margin-left: 0.3rem;
+    list-style: disc inside;
+    font-size: 0.14rem;
+    line-height: 0.30rem;
+    color: #999999;
+  }
+}
+@media (max-width: 768px) {
+  .u-companylink {
+    display: none;
+  }/*手机屏幕不显示此版块*/
+}
